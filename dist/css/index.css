@@ -48,7 +48,18 @@ body {
   background-color: #212121;
 }
 
+.skills-div {
+  min-height: 90%;
+  min-height: 90vh;
+  background-color: #212121;
+}
+
 .home-image img {
   width: 400px;
   height: 400px;
+}
+
+.row img {
+  width: 100px;
+  height: 100px;
 }
