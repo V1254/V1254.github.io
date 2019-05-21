@@ -63,3 +63,8 @@ body {
   width: 100px;
   height: 100px;
 }
+
+.projects-div {
+  min-height: 90%;
+  min-height: 90vh;
+}
