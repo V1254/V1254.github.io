@@ -4,9 +4,9 @@ body {
   font-family: Roboto, Oxygen, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.navbar {
+/* .navbar {
   background-color: transparent;
-}
+} */
 
 /* Nav links colors; TODO: override active on nav-items */
 .navbar-fixed-top .active a {
@@ -64,7 +64,20 @@ body {
   height: 100px;
 }
 
-.projects-div {
+.projects-di,
+.contact-div {
   min-height: 90%;
   min-height: 90vh;
+}
+
+.form-rounded {
+  border-radius: 0.9rem;
+}
+
+textarea {
+  resize: none;
+}
+
+#submit-button {
+  width: 200px;
 }
