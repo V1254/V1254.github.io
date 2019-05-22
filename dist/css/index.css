@@ -4,9 +4,15 @@ body {
   font-family: Roboto, Oxygen, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-/* .navbar {
+.transparent-nav {
   background-color: transparent;
-} */
+  transition: background-color 200ms linear;
+}
+
+.colored-nav {
+  background-color: #343a40;
+  transition: background-color 200ms linear;
+}
 
 /* Nav links colors; TODO: override active on nav-items */
 .navbar-fixed-top .active a {
