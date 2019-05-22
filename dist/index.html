@@ -22,12 +22,9 @@
 
     <link rel="stylesheet" href="css/index.css" />
   </head>
-  <body data-spy="scroll" data-target=".navbar-fixed-top">
+  <body data-spy="scroll" data-target="#myNav">
     <!-- Navigation Bar Start-->
-    <nav
-      id="myNav"
-      class="navbar navbar-expand-lg navbar-fixed-top navbar-light"
-    >
+    <nav id="myNav" class="navbar navbar-expand-lg fixed-top navbar-light">
       <div class="container">
         <div class="d-flex flex-grow-1">
           <span class="w-100 d-lg-none d-block">
@@ -219,6 +216,7 @@
       </div>
     </div>
 
+    <!-- Project Section Start -->
     <div
       id="projects"
       class="container projects-div mx-auto"
@@ -258,6 +256,49 @@
               <i class="fab fa-github"></i> Github
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section Start -->
+    <div
+      id="contact"
+      class="container contact-div"
+      style="border: solid salmon;"
+    >
+      <div class="header text-center">
+        <h4 class="display-3 text-white">Get In Touch</h4>
+      </div>
+      <div class="row vertical-center">
+        <div class="social-div col-lg-4">
+          <div class="links d-flex justify-content-between">
+            <a href="#"><i class="fab fa-linkedin fa-4x"></i></a>
+            <a href="#"><i class="fab fa-github fa-4x"></i></a>
+            <a href="#"><i class="fas fa-envelope fa-4x"></i></a>
+          </div>
+        </div>
+
+        <div class="form-div col-lg" style="border: solid green;">
+          <form action="" method="">
+            <div class="form-group text-danger">
+              <label for="name">Full Name</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+
+            <div class="form-group text-danger">
+              <label for="email">Your Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+
+            <div class="form-group text-danger">
+              <label for="message">Your Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+
+            <div class="text-right">
+              <button class="btn btn-danger btn-lg">Send</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
