@@ -42,16 +42,19 @@ body {
   align-items: center;
 }
 
-.main-div {
-  min-height: 90%;
-  min-height: 90vh;
+.main-div,
+.skills-div,
+.projects-div {
+  min-height: 100%;
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #212121;
 }
 
-.skills-div {
+.contact-div {
   min-height: 90%;
   min-height: 90vh;
-  background-color: #212121;
 }
 
 .home-image img {
@@ -64,14 +67,8 @@ body {
   height: 100px;
 }
 
-.projects-di,
-.contact-div {
-  min-height: 90%;
-  min-height: 90vh;
-}
-
 .form-rounded {
-  border-radius: 0.9rem;
+  border-radius: 1.25rem;
 }
 
 textarea {
@@ -80,4 +77,12 @@ textarea {
 
 #submit-button {
   width: 200px;
+}
+
+.social-link a {
+  color: lightskyblue;
+}
+
+.social-link a:hover {
+  color: #de3c4b;
 }
