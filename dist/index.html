@@ -22,7 +22,7 @@
 
     <link rel="stylesheet" href="css/index.css" />
   </head>
-  <body data-spy="scroll" data-target="#myNav">
+  <body data-spy="scroll" data-target="#nav-links-div" data-offset="250">
     <!-- Navigation Bar Start-->
     <nav
       id="myNav"
@@ -55,8 +55,8 @@
           id="nav-links-div"
         >
           <ul class="navbar-nav ml-auto flex-nowrap">
-            <li id="home-link" class="nav-item">
-              <a href="#" class="nav-link">Home</a>
+            <li id="home-link" class="nav-item active">
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li id="skills-link" class="nav-item">
               <a href="#skills" class="nav-link">Skills</a>
@@ -73,7 +73,7 @@
     </nav>
 
     <!-- Home Section Start-->
-    <div class="jumbotron text-center text-white main-div mb-0">
+    <div id="home" class="jumbotron text-center text-white main-div mb-0">
       <!-- Image Container -->
       <div class="container mt-0">
         <!-- Home Image -->
@@ -322,7 +322,7 @@
           <div class="submit-button mt-2 text-center">
             <button
               id="submit-button"
-              class="btn btn-lg btn-dark border border-dark text-white form-rounded"
+              class="btn btn-lg btn-danger text-white form-rounded"
             >
               <i class="fas fa-paper-plane"></i>
               Send
