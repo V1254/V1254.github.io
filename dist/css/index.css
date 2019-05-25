@@ -26,12 +26,12 @@ body {
 }
 
 #nav-links-div .nav-item a {
-  font-weight: 600;
+  font-weight: 700;
   color: #e3e3e3;
 }
 
 #nav-links-div .nav-item a:hover {
-  font-weight: 600;
+  font-weight: 700;
   color: #de3c4b !important;
 }
 
