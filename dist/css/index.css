@@ -4,9 +4,10 @@ html {
 }
 
 body {
+  position: relative;
   margin: 0;
   background-color: #212121;
-  font-family: Roboto, Oxygen, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .transparent-nav {
@@ -30,11 +31,13 @@ body {
 }
 
 #nav-links-div .nav-item a:hover {
-  color: #de3c4b;
+  font-weight: 600;
+  color: #de3c4b !important;
 }
 
-#nav-links-div .active a {
-  color: #de3c4b;
+#nav-links-div .active {
+  font-weight: 600;
+  color: #de3c4b !important;
 }
 
 /* Branding on nav Styling */
