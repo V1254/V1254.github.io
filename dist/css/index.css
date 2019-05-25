@@ -105,3 +105,11 @@ textarea {
 .social-link a:hover {
   color: #de3c4b;
 }
+
+.thank-you-div {
+  visibility: hidden;
+}
+
+#honeypot {
+  display: none;
+}
