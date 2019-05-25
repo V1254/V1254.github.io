@@ -55,7 +55,7 @@
           id="nav-links-div"
         >
           <ul class="navbar-nav ml-auto flex-nowrap">
-            <li id="home-link" class="nav-item active">
+            <li id="home-link" class="nav-item">
               <a href="#home" class="nav-link">Home</a>
             </li>
             <li id="skills-link" class="nav-item">
@@ -84,8 +84,14 @@
         <!-- Name, Status & Relevent links container -->
         <div class="container mt-0">
           <!-- TODO: adjust font to match width of svg. -->
-          <h1>MOHAMED SHARIF</h1>
-          <p class="mt-3"><b class="text-danger">status:</b> doing Stuff</p>
+          <h1 class="font-weight-bold">Hi I'm Mohamed</h1>
+
+          <div class="intro-text w-25 mx-auto">
+            <p class="font-weight-bold">
+              A Software Developer
+            </p>
+          </div>
+
           <div class="links mt-4">
             <a href="#projects" class="btn btn-lg btn-danger mr-1" role="button"
               >projects</a
@@ -111,7 +117,7 @@
     <!--Skills Section Start -->
     <div id="skills" class="container skills-div">
       <div class="skills-title text-left text-white mt-4 ml-2">
-        <h1 class="display-4">Skills</h1>
+        <h1 class="font-weight-bold">Skills</h1>
       </div>
 
       <div class="skill-cards">
@@ -232,11 +238,11 @@
     <!-- Project Section Start -->
     <div
       id="projects"
-      class="container projects-div mx-auto"
+      class="container projects-div mx-auto text-white"
       style="height: 100%;width: 100%;"
     >
       <div class="projects-title">
-        <h1 class="display-4 text-white">Projects</h1>
+        <h1 class="font-weight-bold">Projects</h1>
       </div>
 
       <div class="row project1">
@@ -247,14 +253,14 @@
           class="project-details col-md-5"
           style="margin-top: auto; margin-bottom: auto;"
         >
-          <div class="project-title col-lg ">
+          <div class="project-title col-lg">
             <h1 class="text-danger display-3">FoodTracker</h1>
           </div>
           <div class="project-description text-white text-wrap ml-3">
             Android application to track the expiration date of items and notify
             the user at certain time frames.
           </div>
-          <div class="project-stack ml-1 py-2 col-lg">
+          <div class="project-stack ml-0 py-2 col-lg">
             <h6 class="font-weight-bold text-nowrap text-secondary text-white">
               Java, XMl, Sqlite, Room
             </h6>
@@ -276,7 +282,7 @@
     <!-- Contact Section Start -->
     <div id="contacts" class="contact-div container">
       <div class="contact-title text-center">
-        <h1 class="text-white">MY CONTACTS</h1>
+        <h1 class="text-white font-weight-bold">MY CONTACTS</h1>
       </div>
 
       <div class="social-link mt-4 text-center">
@@ -284,7 +290,9 @@
         <a href="#"><i class="fab fa-linkedin fa-2x mr-4"></i></a>
         <a href="#"><i class="fab fa-github fa-2x"></i></a>
 
-        <p class="mt-5 text-white">Shoot me a message with the form below.</p>
+        <p class="mt-5 text-white font-italic">
+          Shoot me a message with the form below.
+        </p>
       </div>
 
       <div class="form-div w-50 mx-auto mt-4">
